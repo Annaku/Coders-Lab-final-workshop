@@ -1,0 +1,51 @@
+footer {
+  width: 100%;
+  font-size: $font-size-footer;
+  background-color: $color-beige;
+  color: $color-white;
+}
+
+#logo_footer {
+  display: inline-block;
+  float: left;
+}
+
+#sun_footer {
+  font-size: 40px;
+  color: $color-white;
+  float: left;
+  padding: 0 20px 0 10px;
+}
+
+div.brand {
+  float: left;
+  padding-top: $height-footer/6;
+  width: 70px;
+}
+
+#contacts {
+  display: inline-block;
+  float: right;
+}
+
+.icon {
+  color: $color-white;
+  padding-right: 20px;
+}
+
+.phone {
+  display: inline-block;
+  text-align: right;
+}
+
+.email {
+  display: inline-block;
+  text-align: right;
+}
+
+#copyrights  {
+  clear: both;
+//  text-align: center;
+  font-size: $font-size-footer/3*2;
+  padding-left: 55px;
+}

@@ -1,0 +1,167 @@
+.dad_son_lg {
+background-image: url("../images/dad_son_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+//padding-top: 66.64%;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+.boat_lg {
+background-image: url("../images/boat_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+//height: 0; //liczy do elementu nadrzędnego, który jest pod nim
+//padding-top: 66.64%;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+.dog_lg {
+background-image: url("../images/dog_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+.seal_lg {
+background-image: url("../images/seal_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+.kiter_lg {
+background-image: url("../images/kiter_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+.sunset_lg {
+background-image: url("../images/sunset_people_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+.people_lg {
+background-image: url("../images/people_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+
+//apartment interior
+
+.river_lg {
+background-image: url("../images/river_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+.chairs_lg {
+background-image: url("../images/chairs_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+//może da się zmniejszyć ten obrazak jeszcze ??
+.house_lg {
+background-image: url("../images/house_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+.kitchen_lg {
+background-image: url("../images/kitchen_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+.closet1_lg {
+background-image: url("../images/closet1_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+.shoes_lg {
+background-image: url("../images/shoes_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+.garden_lg {
+background-image: url("../images/garden_lg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+width: 200px;
+height: 125px;
+display: inline-block;
+border: 10px solid $color-blue;
+}
+
+#PogodaNetWidget {
+  display: inline-block;
+  border: 10px solid $color-blue !important;
+  font-family: "Roboto" !important;
+}
+
+#PogodaNetWidget a {
+  color: $color-blue;
+}
+
+.p1 {
+  background-color: $color-blue;
+  color: $color-white;
+}
+
+.p3 {
+  width: 100%;
+  height: 5*$height-nav;
+//  background-image:  url("../images/design2_bg.svg");
+//  background-size: cover;
+  //background-repeat: repeat;
+}

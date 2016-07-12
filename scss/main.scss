@@ -1,0 +1,14 @@
+@import "modules/variables";
+@import "modules/colors";
+@import "modules/typography";
+@import "partials/grid";  //spr kolejność czy działa
+@import "partials/header";
+@import "partials/photos";
+@import "partials/footer";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-yellow;
+  font-family: 'Roboto', sans-serif;
+}
