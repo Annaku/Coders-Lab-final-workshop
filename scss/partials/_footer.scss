@@ -23,9 +23,11 @@ div.brand {
   width: 70px;
 }
 
-#contacts {
+.contacts {
   display: inline-block;
   float: right;
+  padding-right: $padding-logo;
+  padding-top: $padding-logo/2
 }
 
 .icon {

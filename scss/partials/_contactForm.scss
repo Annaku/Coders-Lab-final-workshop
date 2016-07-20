@@ -1,0 +1,157 @@
+.left_padding {
+  padding-left: $padding-logo;
+}
+
+fieldset {
+  border: none;
+}
+
+input, textarea {
+  width: 100%;
+  display: block;
+  font-size: $font-size-paragraph;
+  color: $color-blue;
+  padding: $padding-logo;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea:focus, input:focus {
+  background-color: $color-yellow;
+  color: $color-blue;
+}
+
+::-webkit-input-placeholder {
+  font-size: $font-size-menu;
+  color: $color-white;
+}
+
+::-moz-placeholder {
+  font-size: $font-size-menu;
+  color: $color-white;
+}
+
+::-ms-input-placeholder {
+  font-size: $font-size-menu;
+  color: $color-white;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: $color-blue;
+}
+
+input:focus::-moz-placeholder {
+  color: $color-blue;
+}
+input:focus::-ms-input-placeholder {
+  color: $color-blue;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  color: $color-blue;
+}
+
+textarea:focus::-moz-placeholder {
+  color: $color-blue;
+}
+
+textarea:focus::-ms-input-placeholder {
+  color: $color-blue;
+}
+
+/*
+::-moz-placeholder {
+  font-size: $font-size-menu;
+  color: $color-white;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: $color-blue;
+}
+
+::-ms-input-placeholder {
+  font-size: $font-size-menu;
+  color: $color-white;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: $color-blue;
+}
+
+::-ms-input-placeholder:active {
+  color: $color-blue;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: $color-blue;
+}
+*/
+
+
+.checkbox {
+  display: inline-block;
+  float: left;
+  width: 40px;
+  height: 40px;
+  -webkit-appearance: none;
+  margin: 0;
+  padding: 0;
+  background-color: $color-yellow;
+  border: 1px solid $color-blue;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+  margin-left: $margin-standard;
+}
+
+label {
+  display: inline-block;
+  float: left;
+  color: $color-blue;
+  margin-bottom: $margin-standard;
+  margin-left: $margin-standard;
+  width: 70%;
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  background-color: $color-blue;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  border: none;
+}
+
+button:hover {
+  border: 5px solid $color-yellow;
+}
+
+button:active {
+  border: 2px solid $color-blue;
+}
+
+
+/*div .form_ok {
+  /*width: 30px;
+  height: 30px;
+ background-image: url("../images/form_ok.jpg");
+  display: inline-block;
+  margin-left: 70px;
+  border: 1px solid #27c7ab;
+  border-radius: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+*/

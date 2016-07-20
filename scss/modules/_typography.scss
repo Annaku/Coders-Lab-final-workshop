@@ -1,3 +1,44 @@
 $font-size-menu: 18px;
 $font-size-footer: 16px;
+$font-size-paragraph: 16px;
 $line-height_menu: 4rem;
+$font-logo-header: 20px;
+
+h1 {
+  font-size: $font-size-menu + 20px;
+  font-weight: bold;
+//  background-color: $color-blue;
+  color: $color-white;
+  padding: 10px 0 10px 20px;
+  line-height: 1.8;
+}
+
+h2 {
+  font-size: $font-size-menu;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: $font-size-paragraph;
+  color: $color-beige-darken;
+  padding: 10px;
+  line-height: 1.5em;
+  //margin-top: 0em;
+  //margin-bottom: 2em;
+}
+
+p span {
+  font-size: $font-size-paragraph+2px;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0 0 3px $color-blue;
+  color: $color-white;
+}
+
+.font_white {
+  color: $color-white;
+}
+
+.font_beige {
+  color: $color-beige-darken;}

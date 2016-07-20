@@ -1,0 +1,28 @@
+/*
+@keyframes rotation {
+  0% {
+  //  opacity: 1;
+    transform: skewX(0deg);
+    transform: rotateY(0deg);
+    }
+  100% {
+  //  opacity:0.6;
+    transform: skewX(180deg);
+    transform: rotateY(180deg);
+    }
+  }
+*/
+.design {
+  display: block;
+  margin-bottom: -150px;
+  overflow: hidden;
+//  margin: 0 auto;
+  background-repeat: no-repeat;
+  animation-name: rotation;
+  animation-duration: 10s;
+//  animation-delay: 20s;
+  animation-direction: alternate;  //alternate
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 2;
+}

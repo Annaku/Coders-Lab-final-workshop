@@ -8,16 +8,16 @@ $grid-columns: 6;
       content: " ";
       display: table;
       clear: both;
-      overflow: hidden;
+    //  overflow: hidden;
       position: relative;
-      border: 1px solid red;
+  //    border: 1px solid black;
+}
 
-
-        &.nested-row {
-        margin-bottom: 3px;
-  //      border: 1px solid blue;
+        & .nested-row {
+        //margin-bottom: 3px;
+    //    border: 1px solid black;
         }
-      }
+
 
     [class*="col-"] {
       -webkit-box-sizing: border-box;
@@ -26,8 +26,8 @@ $grid-columns: 6;
       float: left;
       width: 100%;
       min-height: 1px;
-      padding: $gutter;
-  //    border: 1px solid #ffffff;
+    //  padding: $gutter;
+    //  border: 1px solid red;
     }
 
 
@@ -85,7 +85,50 @@ $grid-columns: 6;
 
 }
   */
-.color-beige {
+//.color-beige {
+//  background-color: $color-beige;
+//  height: $height-nav;
+//}
+
+/*
+.col-1 {
+  width: 16.66%;
+}
+
+.col-2 {
+  width: 33.33%;
+}
+
+.col-3 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 66.66%
+}
+
+.col-5 {
+  width: 83.33%;
+}
+
+.col-6 {
+  width: 100%;
+}
+*/
+.beige_full_width, .beige {
   background-color: $color-beige;
-  height: $height-nav;
+//  background-image: url("../images/closet1_lg.jpg");
+//  background-size: cover;
+//  background-repeat: no-repeat;
+//  width: 200px;
+//  height: $height-nav;
+}
+
+.h1_full_width, .blue {
+  background-color: $color-blue;
+//  height: $height-h1;
+}
+
+.white {
+  background-color: $color-white;
 }
