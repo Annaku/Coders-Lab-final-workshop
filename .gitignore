@@ -1,4 +1,5 @@
 node_modules
+images
 gulpfile.js
 package.json
 *.docx
