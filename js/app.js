@@ -82,7 +82,7 @@ pictureOnLoad();
 */
 
 //cycleItems();
-/*
+
   var $currentIndex = 0;
   $items = $(".slider_container").find(".slider");
 //  console.log($items);
@@ -102,7 +102,7 @@ var $autoSlide = setInterval(function() {
   }
   cycleItems();
 }, 3000);
-*/
+
 
 
 
