@@ -8,14 +8,15 @@ $grid-columns: 6;
       content: " ";
       display: table;
       clear: both;
-    //  overflow: hidden;
+      overflow: hidden;
       position: relative;
   //    border: 1px solid black;
 }
 
         & .nested-row {
-        //margin-bottom: 3px;
-    //    border: 1px solid black;
+        margin-bottom: $gutter;
+  //      border: 1px solid black;
+        display: table;
         }
 
 
@@ -26,7 +27,7 @@ $grid-columns: 6;
       float: left;
       width: 100%;
       min-height: 1px;
-    //  padding: $gutter;
+      padding: $gutter/2;
     //  border: 1px solid red;
     }
 
@@ -36,85 +37,10 @@ $grid-columns: 6;
     @for $i from 1 through $grid-columns {
         .col-#{$i} {
         width: $i * 100% / $grid-columns;
+        }
       }
     }
-  }
 
-// bez @for
-
-/*
-.row {
-    .col-1 {
-      width: 1 * (100% / $grid-columns);
-    }
-    .col-2 {
-      width: 2 *(100% / $grid-columns);
-    }
-    .col-3 {
-      width: 3 * (100% /$grid-columns);
-    }
-    .col-4 {
-      width: 4 * (100% / $grid-columns);
-    }
-    .col-5 {
-      width: 5 * (100% / $grid-columns);
-    }
-    .col-6 {
-      width: 6 * (100% / $grid-columns);
-    }
-    .col-7 {
-      width: 7 * (100% / $grid-columns);
-    }
-    .col-8 {
-      width: 8 * (100% / $grid-columns);
-    }
-    .col-9 {
-      width: 9 * (100% / $grid-columns);
-    }
-    .col-10 {
-      width: 10 * (100% / $grid-columns);
-    }
-    .col-11 {
-      width: 11 * (100% / $grid-columns);
-    }
-    .col-12 {
-      width: 12 * (100% / $grid-columns);
-    }
-
-}
-
-}
-  */
-//.color-beige {
-//  background-color: $color-beige;
-//  height: $height-nav;
-//}
-
-/*
-.col-1 {
-  width: 16.66%;
-}
-
-.col-2 {
-  width: 33.33%;
-}
-
-.col-3 {
-  width: 50%;
-}
-
-.col-4 {
-  width: 66.66%
-}
-
-.col-5 {
-  width: 83.33%;
-}
-
-.col-6 {
-  width: 100%;
-}
-*/
 .beige_full_width, .beige {
   background-color: $color-beige;
 //  background-image: url("../images/closet1_lg.jpg");

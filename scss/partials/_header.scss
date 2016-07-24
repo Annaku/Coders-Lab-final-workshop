@@ -61,6 +61,10 @@ nav, ul.menu, ul.submenu {
   overflow-y: visible;
 }
 
+#large_menu {
+  z-index: 1000;
+}
+
 .nav_container {
     width: $grid-container-width;
     height: $height-nav;

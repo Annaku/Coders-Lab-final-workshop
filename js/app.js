@@ -138,7 +138,7 @@ $('.prev').click(function() {
 
 */
 
-//Photos details with description on click
+//Photo details with description on click
 
 var $photo = $(".photo");
 console.log($photo);
@@ -160,7 +160,7 @@ $photo.on("click", function(){
   $photo.each(function(index, value){
     if ($(this).hasClass("active")){
       $description.eq(index).show("1000");
-      $description.eq(index).css("display", "table-cell");
+      $description.eq(index).css("display", "inline-block");
 
 //      $(this).css("transform", "scale(2)");
 //      $(this).css({"z-index": "1000"});
