@@ -43,6 +43,7 @@ input:focus::-webkit-input-placeholder {
 input:focus::-moz-placeholder {
   color: $color-blue;
 }
+
 input:focus::-ms-input-placeholder {
   color: $color-blue;
 }
@@ -58,35 +59,6 @@ textarea:focus::-moz-placeholder {
 textarea:focus::-ms-input-placeholder {
   color: $color-blue;
 }
-
-/*
-::-moz-placeholder {
-  font-size: $font-size-menu;
-  color: $color-white;
-}
-
-input:focus::-webkit-input-placeholder {
-  color: $color-blue;
-}
-
-::-ms-input-placeholder {
-  font-size: $font-size-menu;
-  color: $color-white;
-}
-
-input:focus::-webkit-input-placeholder {
-  color: $color-blue;
-}
-
-::-ms-input-placeholder:active {
-  color: $color-blue;
-}
-
-input:focus::-webkit-input-placeholder {
-  color: $color-blue;
-}
-*/
-
 
 .checkbox {
   display: inline-block;
