@@ -10,12 +10,11 @@ $grid-columns: 6;
       clear: both;
       overflow: hidden;
       position: relative;
-  //    border: 1px solid black;
-}
+      }
 
         & .nested-row {
         margin-bottom: $gutter;
-        border: 1px solid black;
+    //    border: 1px solid black;
         display: table;
         }
 
@@ -28,13 +27,11 @@ $grid-columns: 6;
       width: 100%;
       min-height: 1px;
       padding: $gutter/2;
-      border: 1px solid red;
-    }
+  //    border: 1px solid red;
+      }
 
 
-    //używając @for:
-
-    @for $i from 1 through $grid-columns {
+      @for $i from 1 through $grid-columns {
         .col-#{$i} {
         width: $i * 100% / $grid-columns;
         }
@@ -43,16 +40,10 @@ $grid-columns: 6;
 
 .beige_full_width, .beige {
   background-color: $color-beige;
-//  background-image: url("../images/closet1_lg.jpg");
-//  background-size: cover;
-//  background-repeat: no-repeat;
-//  width: 200px;
-//  height: $height-nav;
 }
 
 .h1_full_width, .blue {
   background-color: $color-blue;
-//  height: $height-h1;
 }
 
 .white {
