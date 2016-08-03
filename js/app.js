@@ -210,5 +210,110 @@ $photos.on("click", function(){
 });
 */
 
+/* Contact Form */
+var $form = $("form");
+var $name = $form.find("#name");
+var $email = $form.find("#email");
+var $text = $form.find("textarea");
+var $checkbox = $form.find(".checkbox");
+var $formOK = $form.find(".form_ok");
+var $error = $form.find(".error");
+var isValid = true;
+console.log($form);
+console.log($name);
+console.log($email);
+console.log($text);
+console.log($error);
+console.log($checkbox);
+console.log($formOK);
 
+$checkbox.on("click", function(){
+  if($(this).hasClass('checked')) {
+    $formOK.hide();
+  } else {$formOK.show( )};
+  $(this).toggleClass("checked");
+  });
+/*
+  $checkbox.on("click", function(){
+      $formOK.fadeToggle();
+    });
+*/
+$form.on("submit", function(event) {
+  event.preventDefault;
+
+  if ($name.val().length>1 && $email.val().indexOf("@") !==-1 && $email.val().indexOf(".") !== -1 && $text.val().length>1 && $checkbox.hasClass("checked")) {
+  $(this).submit;
+  } else {
+  $error.text("Sprawdź pola formularza !").css("color","red");
+  return false;
+}
+});
+/*
+
+
+  var isValid = true;
+
+  if(name.length<3) {
+    isValid = false;
+  };
+
+  if(surname.length<5) {
+    isValid = false;
+  };
+
+  if(isValid = true) {
+   form.on("submit", function(){
+     $.ajax ({
+       url: "api.coderslab.pl/register",
+       method: POST,
+       data: JSON.stringify
+         name: name,
+         surname: surname,
+         address: address,
+
+     })  .fail(alert("error"));
+        return false;
+      });
+
+
+
+     var titleData = $(this).find(".get_title").val();
+     var descData = $(this).find(".get_description").val();
+  $.ajax ({
+    url: "api.coderslab.pl/register",
+    method: POST,
+    data: JSON.stringify
+      name: titleData,
+      description: descData;
+      screening: [];
+  })  .fail(alert("error"));
+     return false;
+   });
+
+
+  }
+
+
+
+  {
+
+    $.ajax({
+              url: "api.coderslab.pl/register"
+          }).done(function(response) {
+              for(var i=0; i<response.results.length; i++) {
+                  var $p = $("<p>")
+                      .text(response.results[i].title);
+                  $("#ajax-result").append($p);
+              }
+              $("#ajax-result").slideDown("fast");
+
+
+          }).fail(function(error) {
+              console.log(error);
+              $("#ajax-result").text(error.statusText).slideDown("fast");
+          });
+      });
+
+  }
+*/
 });

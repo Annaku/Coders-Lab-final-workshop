@@ -335,16 +335,18 @@
     <div class="col-2">
       <h2 class="font_beige left_padding">Kontakt</h2>
 <!-- Contact Form -->
-          <form class="yellow">
+        <form method="post" action="http://www.htmlcodetutorial.com/cgi-bin/mycgi.pl" class="yellow">
+          <div class="error">
+            </div>
           <fieldset class="">
-              <input class="beige" type="text" name="name" placeholder="Imię"/>
-              <input class="beige" type="text" name="email" placeholder="Email"/>
+              <input class="beige" type="text" name="name" placeholder="Imię" id="name"/>
+              <input class="beige" type="text" name="email" placeholder="Email" id="email"/>
               <textarea class="beige" name="Wiadomość" placeholder="Wiadomość"></textarea>
             </fieldset>
           <fieldset class="">
-            <div class="">
-                <input class="checkbox" type="checkbox" checked="checked" name="checkbox"/>
-                  </div>
+            <input class="checkbox" type="checkbox" checked="checked" name="checkbox"/>
+              <div class="form_ok">&#x2713;
+                </div>
               <label class="" for="checkbox">Zgadzam się na przetwarzanie danych osobowych</label>
             </fieldset>
             <fieldset class="button">
