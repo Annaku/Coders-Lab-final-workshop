@@ -1,73 +1,211 @@
 /* Menu - more detailed settings for the responsive menu are included in the _header.scss file*/
 
-@media only screen and (max-width: 835px) {
-  .dt {
-    display: none;
-  }
-
+@media only screen and (max-width: 435px) {
   .row {
     width: 100%;
   }
   .grid-container [class*="col-"] {
     width: 100%;
   }
-//to poniżej bedzie do poprawki !
-  .photo {
-    width: 440px;
-    height:300px;
+}
+
+@media only screen and (max-width: 835px) {
+  .dt {
+    display: none;
   }
 }
 
+//to dotyczy też pozostałych ustawień rwd:
+@media only screen and (max-width: 500px) {
+  h1, p {
+    padding-right: 10px;
+  }
+  .dad_son {
+  background-image: url("../images/dad_son_sm.jpg");
+  }
+  .boat {
+  background-image: url("../images/boat_sm.jpg");
+  display: inline-block;
+  }
+  .dog {
+  background-image: url("../images/dog_sm.jpg");
+  }
+  .seal {
+  background-image: url("../images/seal_sm.jpg");
+  }
+  .kiter {
+  background-image: url("../images/kiter_sm.jpg");
+  }
+  .sunset {
+  background-image: url("../images/sunset_sm.jpg");
+  }
+  .people {
+  background-image: url("../images/people_sm.jpg");
+  }
+  .photo:hover {
+    transform: none;
+  }
+  .river {
+  background-image: url("../images/river_sm.jpg");
+  }
+  .chairs {
+  background-image: url("../images/chairs_sm.jpg");
+  }
+  .house {
+  background-image: url("../images/house_sm.jpg");
+  }
+  .kitchen {
+  background-image: url("../images/kitchen_sm.jpg");
+  }
+  .closet1 {
+  background-image: url("../images/closet1_sm.jpg");
+  }
+  .shoes {
+  background-image: url("../images/shoes_sm.jpg");
+  }
+  .garden {
+  background-image: url("../images/garden_sm.jpg");
+  }
+  .sunset_people {
+  background-image: url("../images/sunset_people_sm.jpg");
+  }
+  .ducks {
+  background-image: url("../images/ducks_sm.jpg");
+  }
+  .button {
+    margin-bottom: $margin-standard;
+  }
+  .design {
+    display: none;
+  }
+  .contacts {
+    float: left;
+    padding-left: $padding-logo;
+  }
+}
+
+/* iPhone 5*/
+@media only screen and (max-width: 320px) {
+  #slider_container {
+    width: 315px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .slider {
+    width: 315px;
+    height: 200px;
+  }
+  .photo {
+    width: 315px;
+    height: 200px;
+  }
+}
 
 /* Galaxy S5*/
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 321px) and (max-width: 360px) {
   #slider_container {
     width: 355px;
     height: 230px;
     overflow: hidden;
   }
-
   .slider {
     width: 355px;
     height: 230px;
   }
-
   .photo {
     width: 355px;
     height: 230px;
   }
+}
 
-  .photo:hover {
-    transform: none;
+/* iPhone 6*/
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+  #slider_container {
+    width: 370px;
+    height: 235px;
+    overflow: hidden;
   }
-
-  .house {
-  background-image: url("../images/house_sm.jpg");
+  .slider {
+    width: 370px;
+    height: 235px;
   }
-/*
-  .description {
-    display: inline-block;
+  .photo {
+    width: 370px;
+    height: 235px;
   }
-*/
-  h1, p {
-    padding-right: 10px;
+}
+
+/* Nexus 5X*/
+@media only screen and (min-width: 376px) and (max-width: 411px) {
+  #slider_container {
+    width: 405px;
+    height: 260px;
+    overflow: hidden;
   }
-
-
-  //to dotyczy też pozostałych ustawień rwd:
-
-  .button {
-    margin-bottom: $margin-standard;
+  .slider {
+    width: 405px;
+    height: 260px;
   }
-
-  .design {
-    display: none;
+  .photo {
+    width: 405px;
+    height: 260px;
   }
+}
 
-  .contacts {
-    float: left;
-    padding-left: $padding-logo;
+/* Nexus 6P*/
+@media only screen and (min-width: 412px) and (max-width: 414px) {
+  #slider_container {
+    width: 408px;
+    height: 260px;
+    overflow: hidden;
   }
+  .slider {
+    width: 408px;
+    height: 260px;
+  }
+  .photo {
+    width: 408px;
+    height: 260px;
+  }
+}
 
+/* iPhone 6 Plus*/
+@media only screen and (min-width: 415px) and (max-width: 435px) {
+  #slider_container {
+    width: 430px;
+    height: 280px;
+    overflow: hidden;
+  }
+  .slider {
+    width: 430px;
+    height: 280px;
+  }
+  .photo {
+    width: 430px;
+    height: 280px;
+  }
+}
 
+/* Between the iPhone6 Plus and iPad */
+@media only screen and (min-width: 436px) and (max-width: 767px) {
+  .row {
+    width: 100%;
+  }
+  .grid-container [class*="col-"] {
+    width: 50%;
+  }
+  #slider_container {
+    width: 430px;
+    height: 280px;
+    overflow: hidden;
+  }
+  .slider {
+    width: 430px;
+    height: 280px;
+  }
+  .photo {
+    width: 100%;
+    height: 380px;
+    background-size: contain;
+    }
 }
