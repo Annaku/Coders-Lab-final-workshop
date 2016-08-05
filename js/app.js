@@ -35,48 +35,8 @@ $(window).on("resize", function(){
 
 /*Slider*/
 
-//moja wersja - niedokończona
-
-
-/*
-var $items = $(".slider_container").find(".slider");
-//console.log($items);
-var $firstPicture = 0;
-var $item = $items.eq($firstPicture);
-
-
-function pictureOnLoad() {
-$items.on("click", function(){
-  $firstPicture++;
-
-if ($firstPicture<$items.length){
-
-  $item = $item.next();
-  $items.hide();
-  $item.fadeToggle(1000);
-  console.log("klik w pierwszej rundzie");
-  };
-
-  if($firstPicture > $items.length-1) {
-  $item.hide();
-  console.log("klik w drugiej rundzie");
-  $items.first().fadeIn();
-  $firstPicture = 0;
-  };
-});
-}
-pictureOnLoad();
-
-
-//cycleItems();
-*/
-
-
-
-//Poniżej wersja z internetu:
-
   var $currentIndex = 0;
-  $items = $(".slider_container").find(".slider");
+  $items = $("#slider_container").find(".slider");
   console.log($items);
   $itemAmt = $items.length;
 

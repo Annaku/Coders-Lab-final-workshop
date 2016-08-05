@@ -1,8 +1,9 @@
+/* Menu - more detailed settings for the responsive menu are included in the _header.scss file*/
+
 @media only screen and (max-width: 835px) {
   .dt {
     display: none;
   }
-
 
   .row {
     width: 100%;
@@ -10,10 +11,62 @@
   .grid-container [class*="col-"] {
     width: 100%;
   }
-
+//to poniżej bedzie do poprawki !
   .photo {
     width: 440px;
     height:300px;
+  }
+}
+
+
+/* Galaxy S5*/
+@media only screen and (max-width: 360px) {
+  #slider_container {
+    width: 355px;
+    height: 230px;
+    overflow: hidden;
+  }
+
+  .slider {
+    width: 355px;
+    height: 230px;
+  }
+
+  .photo {
+    width: 355px;
+    height: 230px;
+  }
+
+  .photo:hover {
+    transform: none;
+  }
+
+  .house {
+  background-image: url("../images/house_sm.jpg");
+  }
+/*
+  .description {
+    display: inline-block;
+  }
+*/
+  h1, p {
+    padding-right: 10px;
+  }
+
+
+  //to dotyczy też pozostałych ustawień rwd:
+
+  .button {
+    margin-bottom: $margin-standard;
+  }
+
+  .design {
+    display: none;
+  }
+
+  .contacts {
+    float: left;
+    padding-left: $padding-logo;
   }
 
 

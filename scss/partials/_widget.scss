@@ -1,14 +1,12 @@
 #PogodaNetWidget {
-  width: 100%;
-  //display: inline-block;
+  width: 100% !important;
   border: 10px solid $color-white !important;
   border-bottom-color: $color-yellow !important;
   border-left-color: $color-yellow !important;
   font-family: "Roboto" !important;
-  background-size: cover; // spr
+  background-size: contain;
   padding: 0;
   margin: 0;
-  font-size: $font-size-paragraph !important;
 }
 
 .PogodaNetWidget_Day {
@@ -23,10 +21,6 @@
   display: none;
 }
 
-a.PogodaNetWidget_Title, .PogodaNetWidget_Link {
-  font-size: $font-size-menu;
-}
-
-#PogodaNetWidget a, #pogodaNetWidget_landscape a {
+#PogodaNetWidget a {
   color: $color-white;
 }

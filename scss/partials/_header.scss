@@ -55,7 +55,6 @@ span.brand {
   text-align: right;
 }
 
-
 nav, ul.menu, ul.submenu {
   width: $grid-container-width;
   overflow-y: visible;
@@ -153,6 +152,7 @@ li.item5:hover .item5 {
   color: $color-white;
   font-size: $font-size-menu;
   line-height: $line-height_menu;
+  z-index: 100;
 }
 
 #small_menu a, dropdown a {

@@ -1,7 +1,7 @@
 .photo {
   display: inline-block;
   border: 10px solid $color-white;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 150px;
@@ -35,7 +35,7 @@ background-image: url("../images/river_lg.jpg");
 background-image: url("../images/chairs_lg.jpg");
 }
 
-.house_lg {
+.house {
 background-image: url("../images/house_lg.jpg");
 }
 
