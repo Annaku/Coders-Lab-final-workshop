@@ -36,6 +36,7 @@ span.brand {
   display: inline-block;
   float: right;
   padding-left: 80px;
+  padding-right: $padding-logo;
   font-size: $font-size-menu;
   padding-top: 10px;
 }
@@ -199,7 +200,7 @@ li.item5:hover .item5 {
     color: $color-blue;
   }
 
-@media only screen and (min-width: 836px) {
+@media only screen and (min-width: 850px) {
   .nav_container {
     display: inline-block;
   }
@@ -211,7 +212,7 @@ li.item5:hover .item5 {
   }
 }
 
-@media only screen and (max-width: 835px) {
+@media only screen and (max-width: 849px) {
   .logo_nav {
     display: none;
   }

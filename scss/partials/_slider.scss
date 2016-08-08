@@ -1,20 +1,20 @@
 #slider_container {
   border: 10px solid $color-white;
   background-color: $color-white;
-  width: 440px;
-  height: 300px;
+  width: 370px;
+  height: 250px;
   overflow: hidden;
 }
 
 .slider {
   background-size: contain;
   background-repeat: no-repeat;
-  width: 440px;
-  height: 300px;
+  width: 370px;
+  height: 250px;
   display: inline-block;
   overflow: hidden;
   display: none;
-  text-align: center;
+  //text-align: center;
 }
 
 .dad_son {

@@ -1,6 +1,6 @@
 /* Menu - more detailed settings for the responsive menu are included in the _header.scss file*/
 
-@media only screen and (max-width: 435px) {
+@media only screen and (max-width: 767px) {
   .row {
     width: 100%;
   }
@@ -9,13 +9,65 @@
   }
 }
 
-@media only screen and (max-width: 835px) {
-  .dt {
+@media only screen and (max-width: 949px) {
+    .photo:hover {
+    transform: none;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 949px) {
+  .col-4.head,
+  .col-4.h1_full_width.tbt,
+  .col-4.tbt,
+  .col-4.blue.widget.tbt,
+  .col-4.design.tbt {
+    width: 100%;
+  }
+  .col-2.h1_full_width.blue,
+  .col-2.blue,
+  .col-2.calendar,
+  .col-2.form {
+    width:  50%;
+  }
+  .col-1.tbt,
+  .col-1.out,
+  .col-1.pic {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 949px) {
+  .dt, .dt {
     display: none;
   }
 }
 
-//to dotyczy też pozostałych ustawień rwd:
+@media only screen and (min-width: 950px) and (max-width: 1200px) {
+  .col-1.dt,
+  .col-1.dt {
+    width: 10%;
+  }
+  .col-4.head,
+  .col-4.menu,
+  .col-4.h1_full_width.tbt,
+  .col-4.tbt,
+  .col-4.blue.widget.tbt,
+  .col-4.design.tbt {
+    width: 80%;
+  }
+  .col-2.h1_full_width.blue,
+  .col-2.blue,
+  .col-2.calendar,
+  .col-2.form {
+    width:  40%;
+  }
+  .col-1.tbt,
+  .col-1.out,
+  .col-1.pic {
+    width: 20%;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   h1, p {
     padding-right: 10px;
@@ -42,9 +94,7 @@
   .people {
   background-image: url("../images/people_sm.jpg");
   }
-  .photo:hover {
-    transform: none;
-  }
+
   .river {
   background-image: url("../images/river_sm.jpg");
   }
@@ -84,8 +134,8 @@
   }
 }
 
-/* iPhone 5*/
-@media only screen and (max-width: 320px) {
+/* iPhone 5 320px*/
+@media only screen and (max-width: 359px) {
   #slider_container {
     width: 315px;
     height: 200px;
@@ -101,8 +151,8 @@
   }
 }
 
-/* Galaxy S5*/
-@media only screen and (min-width: 321px) and (max-width: 360px) {
+/* Galaxy S5 360px*/
+@media only screen and (min-width: 360px) and (max-width: 374px) {
   #slider_container {
     width: 355px;
     height: 230px;
@@ -118,8 +168,8 @@
   }
 }
 
-/* iPhone 6*/
-@media only screen and (min-width: 361px) and (max-width: 375px) {
+/* iPhone 6 375px*/
+@media only screen and (min-width: 375px) and (max-width: 410px) {
   #slider_container {
     width: 370px;
     height: 235px;
@@ -135,8 +185,8 @@
   }
 }
 
-/* Nexus 5X*/
-@media only screen and (min-width: 376px) and (max-width: 411px) {
+/* Nexus 5X 411px*/
+@media only screen and (min-width: 411px) and (max-width: 413px) {
   #slider_container {
     width: 405px;
     height: 260px;
@@ -152,8 +202,8 @@
   }
 }
 
-/* Nexus 6P*/
-@media only screen and (min-width: 412px) and (max-width: 414px) {
+/* Nexus 6P 414px*/
+@media only screen and (min-width: 414px) and (max-width: 434px) {
   #slider_container {
     width: 408px;
     height: 260px;
@@ -169,8 +219,8 @@
   }
 }
 
-/* iPhone 6 Plus*/
-@media only screen and (min-width: 415px) and (max-width: 435px) {
+/* iPhone 6 Plus 435*/
+@media only screen and (min-width: 435px) and (max-width: 767px) {
   #slider_container {
     width: 430px;
     height: 280px;
@@ -186,26 +236,26 @@
   }
 }
 
-/* Between the iPhone6 Plus and iPad */
-@media only screen and (min-width: 436px) and (max-width: 767px) {
-  .row {
-    width: 100%;
-  }
+/* iPad 768px*/
+@media only screen and (min-width: 768px) and (max-width: 849px) {
   .grid-container [class*="col-"] {
-    width: 50%;
+  width: 384px;
+}
+  .col-4.h1_full_width.tbt,
+  .col-4.tbt,
+  .col-4.blue.widget.tbt,
+  .col-4.design.tbt,
+  .col-1.tbt {
+    width: 100%;
   }
-  #slider_container {
-    width: 430px;
-    height: 280px;
-    overflow: hidden;
-  }
-  .slider {
-    width: 430px;
-    height: 280px;
+  .col-1.out{
+    display: none;
   }
   .photo {
-    width: 100%;
-    height: 380px;
-    background-size: contain;
-    }
+    width: 380px;
+    height: 250px;
+  }
+  #logo_footer {
+    margin-right: $margin-standard;
+  }
 }
