@@ -1,0 +1,30 @@
+button.calendar {
+  width: 10%;
+  font-size: 1.5em;
+}
+button.prev {
+  margin-left: $margin-standard;
+}
+h2.calendar{
+  display: inline-block;
+  color: $color-blue;
+  text-align: center;
+  width: 69%;
+  padding-bottom: 0;
+}
+table {
+  border-collapse: collapse;
+  color: $color-beige;
+  width: 100%;
+}
+thead {
+  font-weight: bold;
+}
+td {
+  line-height: 2rem;
+  text-align: center;
+}
+.selected {
+  background: $color-yellow;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .5) inset;
+}
